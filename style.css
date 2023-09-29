@@ -1,0 +1,13 @@
+.block{
+    background-image: url('arrow.jpeg') no-repeat;
+    position: relative;
+  }
+  
+  .block::before{
+    background-color: rgba(0, 0, 0, 0.37);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
